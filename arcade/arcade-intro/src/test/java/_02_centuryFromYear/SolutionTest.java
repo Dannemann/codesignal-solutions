@@ -27,7 +27,7 @@ public class SolutionTest {
 			assertEquals(4, s.centuryFromYear(374));
 			assertEquals(1, s.centuryFromYear(45));
 			assertEquals(1, s.centuryFromYear(8));
-			// Hidden.
+			// Hidden:
 			assertEquals(3, s.centuryFromYear(300));
 			assertEquals(16, s.centuryFromYear(1588));
 			assertEquals(1, s.centuryFromYear(1));
