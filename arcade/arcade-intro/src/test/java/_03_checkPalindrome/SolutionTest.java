@@ -13,7 +13,7 @@ public class SolutionTest {
 	@Test
 	public void testSolution() {
 		List<AbstractSolution> solutions = Arrays.asList(
-				new ReverseAndCompare(),
+				new Favorite_ReverseAndCompare(),
 				new ManualReverseAndCompare(),
 				new ComparingFirstAndLastChars(),
 				new ComparingFirstAndLastCharsRecursive(),

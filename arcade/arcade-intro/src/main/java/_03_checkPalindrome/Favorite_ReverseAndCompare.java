@@ -1,6 +1,6 @@
 package _03_checkPalindrome;
 
-class ReverseAndCompare extends AbstractSolution {
+class Favorite_ReverseAndCompare extends AbstractSolution {
 
 	boolean checkPalindrome(String inputString) {
 		return inputString.equals(new StringBuilder(inputString).reverse().toString());
