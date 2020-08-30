@@ -12,8 +12,10 @@ public class SolutionTest {
 	@Test
 	public void testSolution() {
 		List<AbstractSolution> solutions = Arrays.asList(
-				new Favorite_PureMath(),
-				new MathCeil());
+				new Favorite_Plus99Divide(),
+				new Subtract1DivideAdd1(),
+				new MathCeil(),
+				new Plus1IfNotCenturyYear());
 
 		for (AbstractSolution s : solutions) {
 			assertEquals(20, s.centuryFromYear(1905));
