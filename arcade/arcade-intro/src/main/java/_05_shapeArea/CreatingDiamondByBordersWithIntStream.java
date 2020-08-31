@@ -6,7 +6,7 @@ class CreatingDiamondByBordersWithIntStream extends AbstractSolution {
 
 	/**
 	 * <p>
-	 * <b>To visualize this solution:</b> Imagine that you are creating the diamond
+	 * <b>To visualize this solution:</b> Imagine that you are creating the polygon
 	 * by the borders. Each iteration is a border and the "<code>+ 1</code>" at the
 	 * end is the central square. The constant "<code>4</code>" is the number you
 	 * need to multiply to get the correct number of squares to fill a border. It is
@@ -17,7 +17,7 @@ class CreatingDiamondByBordersWithIntStream extends AbstractSolution {
 	 * blue) around the central square (red).
 	 * </p>
 	 * <p>
-	 * <img src="assets/CreatingDiamondByBorders_Ex1.png">
+	 * <img src="assets/CreatingDiamondByBorders_Ex.png">
 	 * </p>
 	 */
 	int shapeArea(int n) {

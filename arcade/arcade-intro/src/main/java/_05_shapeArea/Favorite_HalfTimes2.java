@@ -9,7 +9,7 @@ class Favorite_HalfTimes2 extends AbstractSolution {
 	 * at the end is the central square (green). Check the image below:
 	 * </p>
 	 * <p>
-	 * <img src="assets/HalfTimes2.png">
+	 * <img src="assets/HalfTimes2_Ex.png">
 	 * </p>
 	 */
 	int shapeArea(int n) {

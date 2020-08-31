@@ -15,7 +15,9 @@ public class SolutionTest {
 				new Favorite_HalfTimes2(),
 				new SquaredN(),
 				new CreatingDiamondByBordersWithIntStream(),
-				new CreatingDiamondByBorders());
+				new CreatingDiamondByBorders(),
+				new CreatingDiamondByBordersRecursively(),
+				new SliceInPieces());
 
 		for (AbstractSolution s : solutions) {
 			assertEquals(5, s.shapeArea(2));
