@@ -17,7 +17,8 @@ public class SolutionTest {
 				new CreatingDiamondByBordersWithIntStream(),
 				new CreatingDiamondByBorders(),
 				new CreatingDiamondByBordersRecursively(),
-				new SliceInPieces());
+				new SliceInPieces(),
+				new MultiplyingOddsBy2());
 
 		for (AbstractSolution s : solutions) {
 			assertEquals(5, s.shapeArea(2));
