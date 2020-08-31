@@ -18,7 +18,8 @@ public class SolutionTest {
 				new CreatingDiamondByBorders(),
 				new CreatingDiamondByBordersRecursively(),
 				new SliceInPieces(),
-				new MultiplyingOddsBy2());
+				new MultiplyingOddsBy2(),
+				new TODO());
 
 		for (AbstractSolution s : solutions) {
 			assertEquals(5, s.shapeArea(2));
