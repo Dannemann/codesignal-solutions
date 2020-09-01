@@ -2,7 +2,7 @@ package _06_makeArrayConsecutive2;
 
 import java.util.Arrays;
 
-class TrickySubtraction extends AbstractSolution {
+class Favorite_TrickySubtraction extends AbstractSolution {
 
 	/**
 	 * <p>

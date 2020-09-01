@@ -12,9 +12,9 @@ public class SolutionTest {
 	@Test
 	public void testSolution() {
 		List<AbstractSolution> solutions = Arrays.asList(
-				new TrickySubtraction(),
-				new TrickySubtractionOnEachElement(),
-				new CrushingWalls());
+				new Favorite_TrickySubtraction(),
+				new Favorite_CrushingWalls(),
+				new TrickySubtractionOnEachElement());
 
 		for (AbstractSolution s : solutions) {
 			assertEquals(3, s.makeArrayConsecutive2(new int[] { 6, 2, 3, 8 }));

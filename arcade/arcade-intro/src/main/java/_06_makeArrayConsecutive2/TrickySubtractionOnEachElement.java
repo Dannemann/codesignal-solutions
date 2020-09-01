@@ -7,7 +7,7 @@ class TrickySubtractionOnEachElement extends AbstractSolution {
 	/**
 	 * <p>
 	 * <b>To visualize this solution:</b> First, you need to completely understand
-	 * the explanation of {@link TrickySubtraction} solution. Notice that something
+	 * the explanation of {@link Favorite_TrickySubtraction} solution. Notice that something
 	 * similar is happening here with the difference that
 	 * "<code>statues[i] - statues[i - 1] - 1</code>" is used to find the number of
 	 * missing elements <b>between the elements in the array</b>. The last
