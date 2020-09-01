@@ -4,7 +4,7 @@ class CreatingDiamondByBordersRecursively extends AbstractSolution {
 
 	/**
 	 * <b>To visualize this solution:</b> This is the same as the other
-	 * CreatingDiamondByBorders solutions but done recursively just for fun. The
+	 * "CreatingDiamondByBorders" solutions but done recursively just for fun. The
 	 * "<code>1</code>" returned by "<code>n == 0 ? 1</code>" is the central square.
 	 */
 	int shapeArea(int n) {
