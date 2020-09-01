@@ -30,19 +30,16 @@ class TrickySubtraction extends AbstractSolution {
 	 * </p>
 	 * <p>
 	 * That's why we need to add "<code>+ 1</code>" to
-	 * "<code>statues[statues.length - 1] - statues[0]</code>". <b>The subtraction
-	 * will remove an element from the array</b>. Remember that a mathematical
-	 * subtraction has nothing to do with array lengths. We just use it to find how
-	 * many numbers we have between 5 and 10, but the subtraction will remove the
-	 * <code>[5]</code> from the original array <code>[5, ?, 7, ?, ?, 10]</code> if
-	 * we do "10 - 5".
+	 * "<code>statues[statues.length - 1] - statues[0]</code>". The subtraction will
+	 * remove the <code>[5]</code> from the original array
+	 * <code>[5, ?, 7, ?, ?, 10]</code> if we do "10 - 5".
 	 * </p>
 	 * <p>
 	 * <b>Let's take another example:</b> the array <code>[6, 2, 3, 8]</code> which
 	 * can be sorted and rearranged to <code>[2, 3, ?, ?, 6, ?, 8]</code>.
 	 * </p>
 	 * <p>
-	 * When we subtract "8 - 2" to find the complete array, we are doing
+	 * When we subtract "8 - 2" to find the complete array, we are actually doing
 	 * <code>[1, 2, 3, 4, 5, 6, 7, 8] <b>-</b> [1, 2] <b>=</b> [3, 4, 5, 6, 7, 8]</code>.
 	 * We end up with an array of 6 elements because the subtraction removed the
 	 * <code>[2]</code>, which is part of <code>[2, 3, ?, ?, 6, ?, 8]</code>.
