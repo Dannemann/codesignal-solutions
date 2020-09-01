@@ -47,7 +47,16 @@ class TrickySubtraction extends AbstractSolution {
 	 */
 	int makeArrayConsecutive2(int[] statues) {
 		Arrays.sort(statues);
+
 		return statues[statues.length - 1] - statues[0] + 1 - statues.length;
 	}
+
+	/**
+	 * Streams version. Not sort needed.
+	 */
+//	int makeArrayConsecutive2(int[] statues) {
+////		return Arrays.stream(statues).max().getAsInt() - Arrays.stream(statues).min().getAsInt() + 1 - statues.length;
+//		return IntStream.of(statues).max().getAsInt() - IntStream.of(statues).min().getAsInt() + 1 - statues.length;
+//	}
 
 }
