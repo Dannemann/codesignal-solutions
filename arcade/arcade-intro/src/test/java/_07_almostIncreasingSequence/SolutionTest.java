@@ -12,7 +12,10 @@ public class SolutionTest {
 
 	@Test
 	public void testSolution() {
-		List<AbstractSolution> solutions = Arrays.asList(new Solution());
+		List<AbstractSolution> solutions = Arrays.asList(
+				new Favorite_RunTheArrayAndCompareAfterwards(),
+				new FindMinAndComparePreviousValues(),
+				new ComparingCurrentWithPreviousWithNextAndEtc());
 
 		for (AbstractSolution s : solutions) {
 			assertFalse(s.almostIncreasingSequence(new int[] { 1, 3, 2, 1 }));
@@ -34,6 +37,10 @@ public class SolutionTest {
 			assertTrue(s.almostIncreasingSequence(new int[] { 1, 2, 3, 4, 99, 5, 6 }));
 			assertTrue(s.almostIncreasingSequence(new int[] { 123, -17, -5, 1, 2, 3, 12, 43, 45 }));
 			assertTrue(s.almostIncreasingSequence(new int[] { 3, 5, 67, 98, 3 }));
+			// Custom:
+			assertTrue(s.almostIncreasingSequence(new int[] { 10, 1, 2 }));
+			assertTrue(s.almostIncreasingSequence(new int[] { 1, 2, 3, 4, 99, 5, 100 }));
+			assertTrue(s.almostIncreasingSequence(new int[] { 1, 2, 3, 4, 5, 8, 5, 9, 10 }));
 		}
 	}
 
