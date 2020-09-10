@@ -9,7 +9,8 @@ class SliceInPieces extends AbstractSolution {
 	 * Notice how each piece is made of "<code>n * 2 - 1</code>" squares and we need
 	 * "<code>n - 1</code>" pieces to fill most of the polygon. To finish it, we
 	 * need one more piece of size "<code>n</code>" (the pink piece, which is the
-	 * initial value of "<code>n</code>").
+	 * initial value of "<code>n</code>"). To make it easier, try to visualize the
+	 * polygon as a square and not as a diamond.
 	 * </p>
 	 * <p>
 	 * <img src="assets/SliceInPieces_Ex.png">

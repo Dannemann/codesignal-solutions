@@ -3,7 +3,7 @@ package _06_makeArrayConsecutive2;
 class Favorite_CrushingWalls extends AbstractSolution {
 
 	int makeArrayConsecutive2(int[] statues) {
-		int helper[] = new int[21];
+		int[] helper = new int[21];
 
 		for (int i : statues)
 			helper[i] = 1;
