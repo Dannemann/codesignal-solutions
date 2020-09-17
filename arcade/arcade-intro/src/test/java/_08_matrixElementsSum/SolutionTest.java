@@ -14,7 +14,8 @@ public class SolutionTest {
 		List<AbstractSolution> solutions = Arrays.asList(
 				new Favorite_SearchVertical(),
 				new Favorite_SearchVerticalOneLoopOnly(),
-				new SearchHorizontal());
+				new SearchHorizontal(),
+				new SearchVerticallyByLineIntStream());
 
 		for (AbstractSolution s : solutions) {
 			assertEquals(9, s.matrixElementsSum(new int[][] { { 0, 1, 1, 2 }, { 0, 5, 0, 0 }, { 2, 0, 3, 3 } }));
