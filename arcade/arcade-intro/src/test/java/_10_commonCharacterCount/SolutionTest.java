@@ -12,9 +12,9 @@ public class SolutionTest {
 	@Test
 	public void testSolution() {
 		List<AbstractSolution> solutions = Arrays.asList(
-				new Favorite_ReplacingCharsContained1(),
-				new IncrementingIntArray1(),
+				new Favorite_IncrementingIntArray1(),
 				new IncrementingIntArray2(),
+				new ReplacingCharsContained1(),
 				new ReplacingAndSubtractingLengths(),
 				new ReplacingCharsContained2());
 
