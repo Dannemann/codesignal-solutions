@@ -12,7 +12,8 @@ public class SolutionTest {
 	@Test
 	public void testSolution() {
 		List<AbstractSolution> solutions = Arrays.asList(
-				new HelloWorld());
+				new HelloWorld(),
+				new BitShifting());
 
 		for (AbstractSolution s : solutions) {
 			assertEquals(3, s.add(1, 2));
