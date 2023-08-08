@@ -21,7 +21,7 @@ class CreatingDiamondByBorders extends AbstractSolution {
 	int shapeArea(int n) {
 		int r = 1;
 
-		for (int i = r; i < n; i++)
+		for (int i = 1; i < n; i++)
 			r += 4 * i;
 
 		return r;
