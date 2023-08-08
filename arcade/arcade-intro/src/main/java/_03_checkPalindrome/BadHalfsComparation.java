@@ -13,7 +13,7 @@ class BadHalfsComparation extends AbstractSolution {
 		String firstHalf = inputString.substring(0, halfLen);
 		String secondHalf = len % 2 == 0 ? inputString.substring(halfLen) : inputString.substring(halfLen + 1);
 
-		return firstHalf.equals(new StringBuilder(secondHalf).reverse().toString());
+		return firstHalf.contentEquals(new StringBuilder(secondHalf).reverse());
 	}
 
 }
