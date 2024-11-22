@@ -1,6 +1,6 @@
 package _04_adjacentElementsProduct;
 
-class SumPairsManually extends AbstractSolution {
+class Favorite_SumPairsManually extends AbstractSolution {
 
 	int adjacentElementsProduct(int[] inputArray) {
 		int len = inputArray.length;

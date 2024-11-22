@@ -12,10 +12,11 @@ public class SolutionTest {
 	@Test
 	public void testSolution() {
 		List<AbstractSolution> solutions = Arrays.asList(
-				new HelloWorld(),
-				new BitShifting());
+				new Favorite_BitShifting(),
+				new HelloWorld());
 
 		for (AbstractSolution s : solutions) {
+			assertEquals(100, s.add(40, 60));
 			assertEquals(3, s.add(1, 2));
 			assertEquals(1000, s.add(0, 1000));
 			assertEquals(-37, s.add(2, -39));

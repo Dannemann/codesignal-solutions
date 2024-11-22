@@ -12,9 +12,9 @@ public class SolutionTest {
 	@Test
 	public void testSolution() {
 		List<AbstractSolution> solutions = Arrays.asList(
-				new Favorite_SumPairsIntStreamRange(),
-				new SumPairsManuallyWithMathMax(),
-				new SumPairsManually());
+				new Favorite_SumPairsManually(),
+				new SumPairsIntStreamRange(),
+				new SumPairsManuallyWithMathMax());
 
 		for (AbstractSolution s : solutions) {
 			assertEquals(21, s.adjacentElementsProduct(new int[] { 3, 6, -2, -5, 7, 3 }));

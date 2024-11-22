@@ -1,6 +1,6 @@
 package _01_add;
 
-class BitShifting extends AbstractSolution {
+class Favorite_BitShifting extends AbstractSolution {
 
 	int add(int param1, int param2) {
 		while (param2 != 0) {
