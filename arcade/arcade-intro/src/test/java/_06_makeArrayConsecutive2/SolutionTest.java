@@ -25,6 +25,8 @@ public class SolutionTest {
 			// Custom:
 			assertEquals(19, s.makeArrayConsecutive2(new int[] { 0, 20 }));
 			assertEquals(4, s.makeArrayConsecutive2(new int[] { 15, 20 }));
+			assertEquals(5, s.makeArrayConsecutive2(new int[] { 12, 18 }));
+			assertEquals(8, s.makeArrayConsecutive2(new int[] { 5, 7, 9, 11, 15, 18 }));
 		}
 	}
 
