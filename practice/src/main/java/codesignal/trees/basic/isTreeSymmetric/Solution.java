@@ -1,4 +1,4 @@
-package br.com.dannemann.algorithms.codesignal.trees.basic.isTreeSymmetric;
+package codesignal.trees.basic.isTreeSymmetric;
 
 class Solution {
 

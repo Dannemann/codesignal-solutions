@@ -1,4 +1,4 @@
-package br.com.dannemann.algorithms.codesignal.trees.basic.hasPathWithGivenSum;
+package codesignal.trees.basic.hasPathWithGivenSum;
 
 class Solution {
 
