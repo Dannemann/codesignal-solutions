@@ -1,4 +1,4 @@
-package codesignal.trees.basic.isTreeSymmetric;
+package codesignal.trees.isTreeSymmetric;
 
 class Solution {
 

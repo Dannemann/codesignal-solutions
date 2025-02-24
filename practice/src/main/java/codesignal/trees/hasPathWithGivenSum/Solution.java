@@ -1,4 +1,4 @@
-package codesignal.trees.basic.hasPathWithGivenSum;
+package codesignal.trees.hasPathWithGivenSum;
 
 class Solution {
 
